@@ -1,0 +1,69 @@
+body{
+  background-color:rgb(246, 236, 218);
+}
+a{
+  text-decoration: none;
+}
+button{text-decoration: none;
+  outline: none;
+}
+.navdiv {padding-top: 10vh;
+  width: 100%;
+  display: flex;
+justify-content: center;
+  height: 30vh;
+ 
+}
+
+.navdiv input{
+  width: 50vh;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+  height: 3vh;
+ 
+}
+
+
+.report{
+  width: 95%;
+  margin-left: 20px;border-radius: 9px;
+  margin-right: 20px;
+  height: 100vh;border: 1px solid grey;
+  background-color:whitesmoke;
+}
+
+.userfirst{ display: flex;
+  text-align: end;border-radius: 9px;
+  padding: 7vh;
+  box-sizing: border-box;
+  width: 100%;background-color: whitesmoke;
+  border: 1px solid black;
+}
+.userfirst img{max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+.userfirst h1{text-transform: capitalize;
+margin-left: 5vw;font-family: "Sixtyfour Convergence", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "BLED" 0,
+  "SCAN" 0,
+  "XELA" 0,
+  "YELA" 0;
+  color: rgb(30, 31, 32);
+}
+.userfirst  button{padding: 0;background-color: red;margin-left: calc(100%/3);
+  width: 100px;max-height: 80px; justify-content: space-around;
+  position: absolute;
+  display: flex;align-items: center;
+}
